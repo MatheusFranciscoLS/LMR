@@ -1,0 +1,57 @@
+body
+{
+    margin: 0;
+    padding: 0;
+    background: rgb(2,21,78);
+background: radial-gradient(circle, rgba(2,21,78,1) 25%, rgba(6,127,245,1) 50%, rgba(2,21,78,1) 76%);
+    font-family: 'Arial';
+}
+.login{
+    text-align: center;
+        width: 382px;
+        overflow: hidden;
+        margin:auto;    
+        margin: 20 0 0 450px;
+        padding: 50px;
+        border-radius: 15px;
+        
+}
+h1{
+    text-align: center;
+    color: #ffffff;
+    padding: 5px;
+}
+#username{
+    width: 380px;
+    height: 30px;
+    border: none;
+    border-radius: 3px;
+    padding-left: 8px;
+}
+.login .entrar{
+    width: 80px;
+    height: 20px;
+    border: none;
+    border-radius: 17px;
+    padding-left: 7px;
+    color: rgb(255, 255, 255);
+    background-color: rgba(0, 0, 0, 0.7);
+}
+#voltar{
+    width: 80px;
+    height: 20px;
+    border: none;
+    border-radius: 17px;
+    padding-left: 7px;
+    color: rgb(255, 255, 255);
+    background-color: rgba(0, 0, 0, 0.7);
+}
+span{
+    color: rgb(255, 255, 255);
+    font-size: 17px;
+}
+a{
+    background: none;
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
