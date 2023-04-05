@@ -1,0 +1,154 @@
+
+body {
+    margin: 0;
+    background-color: black;
+}
+
+header {
+    margin: 0;
+    background-color: red;
+    width: 100%;
+    height: 6vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header img {
+    height: 90%;
+}
+
+.menu {
+    width: 50%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.menu .link {
+    text-decoration: none;
+    font-size: 24px;
+    color: aliceblue;
+}
+
+.hamb {
+    display: none;
+}
+
+.parte1 {
+    background-image: url(img/banner_analise_e_des_sistemas.jpeg);
+    background-size: cover;
+    width: 100%;
+    height: 55vh;
+    margin-bottom: -40px;
+    padding: 0.1px;
+}
+
+.parte1 .titulo {
+    width: 40%;
+    height: 100%;
+    text-align: left;
+    text-transform: uppercase;
+    margin-left: 50px;
+    margin-top: 50px;
+}
+
+.titulo h1 {
+    font-size: 40px;
+    color: aliceblue;
+}
+
+.titulo h2 {
+    font-size: 30px;
+    color: red;
+}
+
+.titulo img {
+    width: 10%;
+}
+
+.parte2{
+    width: 40%;
+    height: 15vh;
+    margin: 0;
+    padding: 5%;
+    margin-bottom: -40px;
+}
+.parte2 h1{
+    font-size: 40px;
+    color: red;
+}
+
+.parte3{
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.parte3 img{
+    width: 40%;
+    height: 90%;
+}
+.parte3 .texto{
+    width: 50%;
+    height: 100%;
+    color: aliceblue;
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+.parte3 h1{
+    font-size: 40px;
+    color: coral;
+    margin-bottom: -5px;
+    margin-top: 20px;
+}
+.parte3 p{
+    font-size: 15px;
+}
+
+@media screen and (max-width: 800px) {
+    .menu {
+        display: none;
+    }
+
+    .hamb {
+        display: inline;
+    }
+
+    .parte1 {
+        width: 100vh;
+    }
+
+    .parte1 .titulo {
+        width: 100%;
+    }
+
+    .titulo h1 {
+        font-size: 30px;
+    }
+
+    .titulo h2 {
+        font-size: 20px;
+    }
+    .parte2{
+        margin-top: 20px;
+        margin-bottom: 5px;
+        width: 100%;
+    }
+    .parte2 h1{
+        font-size: 30px;
+        text-align: center;
+    }
+    .parte3{
+        display: unset;
+    }
+    .parte3 .texto{
+        width: 100%;
+    }
+    .parte3 h3{
+        text-align: center;
+    }
+    .parte3 img{
+        width: 100%;
+    }
+}
