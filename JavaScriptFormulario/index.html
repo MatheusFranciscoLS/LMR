@@ -25,40 +25,22 @@
     <br>
     <br>
     <form action="" id="MyCalc">
-        <label for="Soma">Somar os Numeros:</label>
+        <label for="pv1" title="Informe o valor 1">
+            Entre com o 1º valor ....:
+        </label>
+        <input type="number"id="pv1">
         <br>
-        <input type="number" id="n1soma">
-        <br>
-        <input type="number" id="n2soma">
-        <br>
-        <input type="button" value="Calcular" onclick="Soma()">
-        <br>
-        <br>
-        <label for="Menos">Subtrair os Numeros</label>
-        <br>
-        <input type="number" id="n1menos">
-        <br>
-        <input type="number" id="n2menos">
-        <br>
-        <input type="button" value="Calcular" onclick="Subtrair()">
+        <label for="pv2" title="Informe o valor 2">
+            Entre com o 2º valor ....:
+        </label>
+        <input type="number"id="pv2">
         <br>
         <br>
-        <label for="Vezes">Multiplicar os Numeros</label>
+        <input type="button" value="Somar" onclick="Soma()">
+        <input type="button" value="Subtrair" onclick="Subtrair()">
+        <input type="button" value="Multiplicar" onclick="Vezes()">
+        <input type="button" value="Dividir" onclick="Divisao()">
         <br>
-        <input type="number" id="n1vezes">
-        <br>
-        <input type="number" id="n2vezes">
-        <br>
-        <input type="button" value="Calcular" onclick="Vezes()">
-        <br>
-        <br>
-        <label for="Divisão">Dividir os numeros</label>
-        <br>
-        <input type="number" id="n1div">
-        <br>
-        <input type="number" id="n2div">
-        <br>
-        <input type="button" value="Calcular" onclick="Divisao()">
     </form>
 </body>
 <script src="script.js"></script>

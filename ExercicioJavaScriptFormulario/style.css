@@ -1,0 +1,8 @@
+.cadastro{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    background-color: rgba(200, 255, 0, 0.482);
+}
