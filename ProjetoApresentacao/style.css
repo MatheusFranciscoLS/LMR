@@ -1,14 +1,13 @@
-
-body{
-    background: rgb(36,41,83);
-background: linear-gradient(90deg, rgba(36,41,83,1) 0%, rgba(33,33,193,1) 50%, rgba(36,41,83,1) 100%);
+body {
+    background: rgb(36, 41, 83);
+    background: linear-gradient(90deg, rgba(36, 41, 83, 1) 0%, rgba(33, 33, 193, 1) 50%, rgba(36, 41, 83, 1) 100%);
 }
-.nav{
 
+.nav {
     display: flex;
     justify-content: space-around;
-    background: rgb(37,37,106);
-background: linear-gradient(90deg, rgba(37,37,106,1) 0%, rgba(37,37,106,1) 50%, rgba(37,37,106,1) 100%);
+    background: rgb(37, 37, 106);
+    background: linear-gradient(90deg, rgba(37, 37, 106, 1) 0%, rgba(37, 37, 106, 1) 50%, rgba(37, 37, 106, 1) 100%);
     height: 50px;
     width: 100%;
     padding: 10px;
@@ -16,52 +15,57 @@ background: linear-gradient(90deg, rgba(37,37,106,1) 0%, rgba(37,37,106,1) 50%, 
     border-top-style: solid;
 }
 
-.textonav{
+.nav img{
+    height: 30px;
+}
+
+.textonav {
     color: white;
     font-weight: bold;
 }
 
-.carousel-inner{
+.carousel-inner {
     display: flex;
     width: 1280px;
     height: 400px;
 }
 
-.carousel{
+.carousel {
     display: flex;
     width: 90%;
     margin: auto;
 }
 
-.imagem1{
-    width: 232vh;
+.imagem1 {
+    width: 100%;
     height: 80vh;
 }
 
-.imagem2{
-    width: 232vh;
+.imagem2 {
+    width: 100%;
     height: 80vh;
 }
 
-.imagem3{
-    width: 232vh;
+.imagem3 {
+    width: 100%;
     height: 80vh;
 }
 
-.imagem4{
-    width: 232vh;
+.imagem4 {
+    width: 100%;
     height: 80vh;
 }
 
-.card{
+.card {
     display: flex;
     justify-content: space-between;
     margin: 10px;
 }
 
-.row{
+.row {
     margin-left: 10px;
 }
+
 .footer {
     width: 100%;
     height: 10vh;
