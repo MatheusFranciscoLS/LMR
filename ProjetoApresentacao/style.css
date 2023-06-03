@@ -15,7 +15,7 @@ body {
     border-top-style: solid;
 }
 
-.nav img{
+.nav img {
     height: 30px;
 }
 
@@ -24,9 +24,14 @@ body {
     font-weight: bold;
 }
 
+h1 {
+    color: white;
+    text-align: center;
+}
+
 .carousel-inner {
     display: flex;
-    width: 1280px;
+    width: 100%;
     height: 400px;
 }
 
@@ -34,6 +39,11 @@ body {
     display: flex;
     width: 90%;
     margin: auto;
+}
+
+.row {
+    display: flex;
+    justify-content: space-around;
 }
 
 .imagem1 {
@@ -86,3 +96,59 @@ body {
     align-items: center;
     color: white;
 }
+
+.login {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    color: white;
+}
+
+.botao {
+    background: #0066A2;
+    color: white;
+    border-style: outset;
+    border-color: #0066A2;
+    height: 50px;
+    width: 100px;
+    font: bold15px arial, sans-serif;
+    text-shadow: none;
+}
+
+.textologin {
+    color: black;
+    font-weight: bold;
+    border-bottom-style: solid;
+    border-top-style: solid;
+    border-left-style: solid;
+    border-right-style: solid;
+}
+
+.needs-validation1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+    margin: 2%;
+}
+
+.needs-validation1 h1{
+    margin: 2%;
+}
+
+.needs-validation2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+    margin: 2%;
+}
+
+.needs-validation2 h1{
+    margin: 2%;
+}
+
