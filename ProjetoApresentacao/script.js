@@ -55,14 +55,14 @@ function Cadastro() {
     if (estado === "") {
         alert("Preencher o campo 'Estado'")
     }
-    if (cep === "") {
-        alert("Preencher o campo 'CEP'")
+    if (cep < 8) {
+        alert("Preencher o campo 'CEP', no minimo 8 digitos")
     }
-    if (cpf === "") {
-        alert("Preencher o campo 'CPF'")
+    if (cpf < 11) {
+        alert("Preencher o campo 'CPF', no minimo 11 digitos")
     }
-    if (nCartao === "") {
-        alert("Preencher o campo 'Nº Cartão'")
+    if (nCartao < 13) {
+        alert("Preencher o campo 'Nº Cartão', no minimo 13 digitos")
     }
     else if (pNome != "" && sNome != "" && usuario != "" && email != "" && cEmail != "" && senha != "" && cSenha != "" && cidade != "" && estado != "" && cep != "" && cpf != "" && nCartao != "") {
         alert("Cadastro realizado com sucesso!!")
