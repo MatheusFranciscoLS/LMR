@@ -124,6 +124,7 @@ h1 {
     border-top-style: solid;
     border-left-style: solid;
     border-right-style: solid;
+    padding: 2px;
 }
 
 .needs-validation1 {
