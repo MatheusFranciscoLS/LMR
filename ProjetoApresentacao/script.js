@@ -14,61 +14,6 @@
     }, false);
 })();
 
-function Cadastro() {
-    let pNome = document.getElementById('pNome').value;
-    let sNome = document.getElementById('sNome').value;
-    let usuario = document.getElementById('usuario').value;
-    let email = document.getElementById('email').value;
-    let cEmail = document.getElementById('cEmail').value;
-    let senha = document.getElementById('senha').value;
-    let cSenha = document.getElementById('cSenha').value;
-    let cidade = document.getElementById('cidade').value;
-    let estado = document.getElementById('estado').value;
-    let cep = document.getElementById('cep').value;
-    let cpf = document.getElementById('cpf').value;
-    let nCartao = document.getElementById('nCartao').value;
-
-    if (pNome === "") {
-        alert("Preencher o campo 'Nome'")
-    }
-    if (sNome === "") {
-        alert("Preencher o campo 'Sobrenome'")
-    }
-    if (usuario === "") {
-        alert("Preencher o campo 'Usuario'")
-    }
-    if (email === "") {
-        alert("Preencher o campo 'Email'")
-    }
-    if (cEmail === "") {
-        alert("Preencher o campo 'Confirmar Email'")
-    }
-    if (senha === "") {
-        alert("Preencher o campo 'Senha'")
-    }
-    if (cSenha === "") {
-        alert("Preencher o campo 'Confirmar Senha'")
-    }
-    if (cidade === "") {
-        alert("Preencher o campo 'Cidade'")
-    }
-    if (estado === "") {
-        alert("Preencher o campo 'Estado'")
-    }
-    if (cep < 8) {
-        alert("Preencher o campo 'CEP', no minimo 8 digitos")
-    }
-    if (cpf < 11) {
-        alert("Preencher o campo 'CPF', no minimo 11 digitos")
-    }
-    if (nCartao < 13) {
-        alert("Preencher o campo 'Nº Cartão', no minimo 13 digitos")
-    }
-    else if (pNome != "" && sNome != "" && usuario != "" && email != "" && cEmail != "" && senha != "" && cSenha != "" && cidade != "" && estado != "" && cep != "" && cpf != "" && nCartao != "") {
-        alert("Cadastro realizado com sucesso!!")
-    } else { }
-}
-
 function Email() {
     let email = document.getElementById('email').value;
     let cEmail = document.getElementById('cEmail').value;
@@ -86,7 +31,7 @@ function Senha() {
 }
 
 function marcarTermos() {
-    document.getElementById("termosButton").onblur = function() {
+    document.getElementById("termosButton").onclick = function() {
         if (!document.getElementById("termosButton").classList.contains("clicked")) {
             document.getElementById("avisoTermos").style.display = "block";
         }
