@@ -21,12 +21,14 @@ body {
 
 .textonav {
     color: white;
-    font-weight: bold;
+    font-family: 'Poppins', sans-serif;
 }
 
 h1 {
     color: white;
     text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
 }
 
 .carousel-inner {
@@ -70,6 +72,16 @@ h1 {
     display: flex;
     justify-content: space-between;
     margin: 10px;
+}
+
+.card-title{
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    color: black;
+}
+
+.card-text{
+    font-family: 'Poppins', sans-serif;
 }
 
 .row {
