@@ -1,8 +1,11 @@
 Introdução
+
 Este documento resume as principais funcionalidades de três projetos diferentes: uma Lâmpada Interativa, um Semáforo Interativo e uma Calculadora Interativa. Cada projeto apresenta uma aplicação web com interface de usuário e funcionalidades específicas. Abaixo, descrevemos brevemente cada projeto e os desafios enfrentados durante o desenvolvimento.
 
-Lâmpada Interativa
+Lâmpada Interativa :
+
 Funcionalidades Principais
+
 Interface do Usuário: A interface inclui uma imagem de uma lâmpada e um botão "Ligar" que permite aos usuários interagirem com a lâmpada.
 
 Controle da Lâmpada: Os usuários podem ligar e desligar a lâmpada clicando no botão. Também podem quebrar a lâmpada clicando duas vezes sobre ela.
@@ -16,8 +19,10 @@ Manipulação de Eventos: A implementação de eventos de interatividade, como o
 
 Compatibilidade de Imagens: Certificar-se de que as imagens da lâmpada estivessem nomeadas corretamente e que a URL da imagem refletisse o estado da lâmpada foi um aspecto crítico.
 
-Semáforo Interativo
+Semáforo Interativo :
+
 Funcionalidades Principais
+
 Interface do Usuário: A interface exibe uma imagem de um semáforo desligado e botões para controlar as cores do semáforo manualmente ou ativá-lo no modo automático.
 
 Controle do Semáforo: Os botões permitem ao usuário selecionar manualmente uma cor para o semáforo ou ativar a troca automática de cores.
@@ -32,7 +37,9 @@ Controle de Eventos: Garantir que a troca automática de cores pudesse ser inter
 Atualização da Interface de Usuário: Certificar-se de que a imagem do semáforo refletisse a cor corrente e que o botão "Automático" pudesse iniciar e parar a troca automática.
 
 Calculadora Interativa
+
 Funcionalidades Principais
+
 Interface do Usuário: A calculadora apresenta um display e botões para números, operadores matemáticos e funcionalidades adicionais.
 
 Controle da Calculadora: Os botões permitem ao usuário inserir números, realizar cálculos matemáticos básicos, limpar o display, corrigir erros e executar outras operações.
@@ -47,4 +54,5 @@ Avaliação de Expressões: Utilizar a função eval() para avaliar expressões 
 Interação com o Teclado: Mapear as teclas do teclado e garantir que a interação via teclado funcione de maneira consistente com os cliques nos botões da calculadora.
 
 Conclusão
+
 Cada um desses projetos apresenta uma aplicação web interativa com suas próprias funcionalidades exclusivas. Os desafios enfrentados incluíram o gerenciamento de estado, a manipulação de eventos, a validação de entrada e a atualização da interface de usuário. Esses projetos demonstram o uso de HTML, CSS e JavaScript para criar aplicativos web interativos e fornecer uma experiência interativa aos usuários.
