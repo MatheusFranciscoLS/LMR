@@ -36,7 +36,7 @@ Controle de Eventos: Garantir que a troca automática de cores pudesse ser inter
 
 Atualização da Interface de Usuário: Certificar-se de que a imagem do semáforo refletisse a cor corrente e que o botão "Automático" pudesse iniciar e parar a troca automática.
 
-Calculadora Interativa
+Calculadora Interativa :
 
 Funcionalidades Principais
 
