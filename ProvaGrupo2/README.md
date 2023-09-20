@@ -1,4 +1,3 @@
-Documento Explicativo dos Projetos: Resumo das Principais Funcionalidades e Desafios
 Introdução
 Este documento resume as principais funcionalidades de três projetos diferentes: uma Lâmpada Interativa, um Semáforo Interativo e uma Calculadora Interativa. Cada projeto apresenta uma aplicação web com interface de usuário e funcionalidades específicas. Abaixo, descrevemos brevemente cada projeto e os desafios enfrentados durante o desenvolvimento.
 
