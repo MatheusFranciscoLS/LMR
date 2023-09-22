@@ -66,6 +66,10 @@ document
     .addEventListener('click', limparCalculo);
 
 const removerUltimoNumero = () => // metodo para remover o ultimo numero digitado 
+// A linha abaixo remove o último caractere da string no elemento 'display':
+// O método slice cria uma nova string a partir da original,
+// mantendo todos os caracteres do início até o penúltimo (-1).
+// função slice (somente para arrays, no caso string é um array de caracteres)
     (display.textContent = display.textContent.slice(0, -1)); // função slice (somente para arrays, no caso string é um array de caracteres)
 document
     .getElementById('backspace')
