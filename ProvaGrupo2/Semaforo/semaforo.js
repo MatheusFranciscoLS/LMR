@@ -21,7 +21,15 @@ const trafficLight = (event) => {
 }
 
 // Função que calcula o próximo índice de cor (circularmente)
+// O nextIndex é uma função que usa um operador ternário para realizar uma operação específica com base em uma condição.
+
 const nextIndex = () => colorIndex = colorIndex < 2 ? ++colorIndex : 0;
+
+// if (colorIndex < 2) {
+//     colorIndex = ++colorIndex;
+// } else {
+//   colorIndex = 0;
+// } 
 
 // Função que muda a cor do semáforo de acordo com o índice atual
 const changeColor = () => {
