@@ -12,6 +12,7 @@ let colorIndex = 0;
 let intervalId = null;
 
 // Função de callback que é chamada quando um dos botões é clicado
+// Uma função callback é uma função passada a outra função como argumento
 const trafficLight = (event) => {
     // Interrompe a troca automática de cores
     stopAutomatic();
