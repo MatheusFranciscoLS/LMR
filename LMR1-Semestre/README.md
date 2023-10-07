@@ -1,1 +1,2 @@
-# Aprendizagem SENAI - Linguagem de Marcação de Texto
+# LMR
+Aprendizagem Senai - Linguagem de Marcação de Texto 1º Semestre
