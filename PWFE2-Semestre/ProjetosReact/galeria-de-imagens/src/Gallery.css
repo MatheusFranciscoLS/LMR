@@ -1,0 +1,17 @@
+/* src/Gallery.css */
+/* Define o tamanho padrão para as imagens na galeria */
+.image-container {
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    margin: 5px;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.image-container img {
+    width: 10%;
+    height: 10rem;
+    border-radius: 5px;
+    padding: 5px;
+}

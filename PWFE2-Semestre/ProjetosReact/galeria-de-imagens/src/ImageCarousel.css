@@ -1,0 +1,13 @@
+.image-carousel{
+    display: flex;
+    justify-content: center;
+    background-color: rgba(65, 40, 40, 0.418);
+    margin: 5px;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.image-carousel img {
+    border-radius: 5px;
+    padding: 5px;
+}
