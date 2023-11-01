@@ -1,27 +1,17 @@
 export class Vaga {
+    //atributos
     id: number = 0;
-
-    cargo: string = '';
+    nome: string = '';
+    foto: string = '';
     descricao: string = '';
-    requisitos: string = '';
-    empresa: string = '';
-    localizacao: string = '';
     salario: number = 0;
-    constructor(
-        id: number,
-        cargo: string,
-        descricao: string,
-        requisitos: string,
-        empresa: string,
-        localizacao: string,
-        salario: number
-    ) {
+
+    //construtor
+    constructor(id: number, nome: string, foto: string, descricao: string, salario: number) {
         this.id = id;
-        this.cargo = cargo;
+        this.nome = nome;
+        this.foto = foto;
         this.descricao = descricao;
-        this.requisitos = requisitos;
-        this.empresa = empresa;
-        this.localizacao = localizacao;
         this.salario = salario;
     }
 }
