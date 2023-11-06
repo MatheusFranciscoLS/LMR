@@ -1,12 +1,13 @@
-// Importa os módulos e classes necessárias
 import { Component, OnInit } from '@angular/core';
 import { Vaga } from '../../model/vaga.model';
 import { VagaService } from '../../service/vagas.service';
+
 @Component({
   selector: 'app-painel-vagas',
   templateUrl: './painel-vagas.component.html',
   styleUrls: ['./painel-vagas.component.css'],
 })
+
 export class PainelVagasComponent implements OnInit {
   public vaga: Vaga = new Vaga(0, '', '', '', 0);
   // Uma instância de 'Vaga' para rastrear os dados do formulário
@@ -71,6 +72,7 @@ export class PainelVagasComponent implements OnInit {
       () => {
         // Após excluir com sucesso
         this.vaga = new Vaga(0, '', '', '', 0); // Limpa o formulário
+
         this.listarVagas(); // Atualiza a lista de vagas
       },
       (err) => {
