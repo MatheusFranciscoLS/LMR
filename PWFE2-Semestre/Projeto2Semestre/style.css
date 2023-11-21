@@ -41,7 +41,7 @@
 
 .inputBox {
     background-color: transparent;
-    color: #ffffff;
+    color: black;
     outline: none;
     width: 100%;
     border: 0;
@@ -168,7 +168,6 @@
     display: flex;
     justify-content: space-evenly;
     width: 100%;
-    height: 10rem;
     top: 100%;
     position: absolute;
     background: #2A8A5C;
@@ -190,14 +189,18 @@
     color: white;
 }
 
+.redeSocial h1{
+    font-size: 25px;
+}
+
 .imgRede {
-    margin-top: 10px;
-    height: 20px;
-    padding:2px;
+    margin-top: 5px;
+    height: 40px;
+    padding-left: 30px;
 }
 
 .meioFooter {
-    width: 160px;
+    width: 200px;
     text-align: center;
     color: black;
     font-size: 18px;
@@ -214,6 +217,10 @@
     color: white;
 }
 
+.politica1 h1{
+    font-size: 25px;
+}
+
 .politica2 {
     margin-top: 10px;
     font-size: 10px;
@@ -221,11 +228,19 @@
     color: white;
 }
 
+.politica2 h1{
+    font-size: 25px;
+}
+
 .politica3 {
     margin-top: 10px;
     font-size: 10px;
     text-align: none;
     color: white;
+}
+
+.politica3 h1{
+    font-size: 25px;
 }
 
 a {
