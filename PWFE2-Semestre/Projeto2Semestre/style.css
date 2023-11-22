@@ -5,15 +5,14 @@
 
 .cima {
     background-color: #2A8A5C;
-   box-shadow: rgba(0, 0, 0, 1) 0px 5px 15px;
     display: flex;
     align-items: center;
     justify-content: space-around;
 }
 
 .foto1 {
-    width: 180px;
-    height: 10rem;
+    width: 100%;
+    height: 6rem;
 }
 
 .foto2 {
@@ -164,6 +163,17 @@
     font-size: 13px;
 }
 
+.navBar{
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    font-size: 25px;
+    box-shadow: rgba(0, 0, 0, 1) 0px 5px 15px;
+    display: flex;
+    justify-content: space-around;
+    text-decoration: black;
+}
+
 .footer {
     display: flex;
     justify-content: space-evenly;
@@ -174,18 +184,18 @@
 }
 
 .logoFooter {
-    width: 80px;
-    height: 80px;
+    width: 50%;
+    height: 4rem;
 }
 
 .ladoEsqFooter {
-    font-size: 10px;
+    font-size: 15px;
     color: white;
+margin-bottom: 20px;
 }
 
 .redeSocial {
     margin-top: 10px;
-    font-size: 10px;
     color: white;
 }
 
@@ -212,7 +222,7 @@
 .politica1 {
     margin-top: 10px;
     margin-top: 10px;
-    font-size: 10px;
+    font-size: 15px;
     text-align: none;
     color: white;
 }
@@ -223,7 +233,7 @@
 
 .politica2 {
     margin-top: 10px;
-    font-size: 10px;
+    font-size: 15px;
     text-align: none;
     color: white;
 }
@@ -234,7 +244,7 @@
 
 .politica3 {
     margin-top: 10px;
-    font-size: 10px;
+    font-size: 15px;
     text-align: none;
     color: white;
 }
@@ -245,5 +255,5 @@
 
 a {
     text-decoration: none;
-    color: white;
+    color: black;
 }
