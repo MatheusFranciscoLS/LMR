@@ -1,0 +1,59 @@
+/* Reset de margens e preenchimentos padrão para todos os elementos */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1000vh;
+    margin: 20px auto; /* Centraliza o container */
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center; /* Centraliza o texto dentro do container */
+}
+
+.row{
+    margin-right: 50vh;
+}
+
+form h1,
+form label,
+form input,
+form button {
+    margin-bottom: 16px;
+}
+
+form h1 {
+    font-size: 24px;
+    color: #2A8A5C; /* Cor do texto do título */
+}
+
+form label {
+    display: block;
+    font-weight: bold;
+}
+
+form input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+form button {
+    background-color: #2A8A5C;
+    color: #fff;
+    padding: 12px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #20714E; /* Cor de destaque ao passar o mouse */
+}
+
+form-check-input{
+}
