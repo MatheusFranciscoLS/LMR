@@ -1,6 +1,6 @@
 body {
     background-color: rgba(20, 181, 55, 0.2);
-}
+}   
 
 .needs-validation1 {
     display: flex;
@@ -8,12 +8,17 @@ body {
     justify-content: center;
     flex-direction: column;
     color: black;
+    margin: 2%;
 }
 
-#btnLogin {
+.needs-validation1 h1 {
+    margin: 2%;
+}
+
+#btnCadastro {
     background-color: #2A8A5C;
 }
 
-#btnLogin:hover {
+#btnCadastro:hover {
     background-color: #15b065;
 }
