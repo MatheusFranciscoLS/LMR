@@ -10,6 +10,7 @@
   <link rel="stylesheet" href="header.css">
   <link rel="stylesheet" href="footer.css">
   <link rel="stylesheet" href="quemsomos.css">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" />
   <title>Quem Somos</title>
 </head>
 
@@ -67,7 +68,7 @@
       <li><a href="quemsomos.html">Quem Somos</a></li>
       <br>
       <li><a href="">Dúvidas Gerais</a></li>
-      <br><br><br><br>
+      <br><br>
       <a href="index.html">Ínicio</a>
     </div>
     <div class="quemSomosTexto">
@@ -119,16 +120,17 @@
       <a href="">Política de white hat</a>
     </div>
     <div class="politica3">
-      <h1>Institucional</h1>
-      <a href="">Sustentabilidade</a><br>
-      <a href="">Empresa</a><br>
-      <a href="">Termos e condições de uso</a><br>
-      <a href="">Canal de ética e conduta</a><br>
-      <a href="">Trabalhe conosco</a>
+      <h4>Encontre uma loja</h4>
+      <div class="mapa">
+        <!-- Elemento onde o mapa será exibido -->
+        <div id="mapa"></div>
+        <!-- Inclusão da biblioteca Leaflet -->
+        <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
+      </div>
     </div>
   </div>
   </footer>
 
 </body>
-
+<script src="mapaLoja.js"></script>
 </html>

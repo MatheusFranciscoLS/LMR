@@ -77,8 +77,14 @@ margin-bottom: 20px;
     color: white;
 }
 
-.politica3 h1{
-    font-size: 25px;
+#mapa {
+    height: 150px;
+    width: 300px;
+    margin-bottom: 20px;
+}
+
+.politica3 h4 {
+    text-align: center;
 }
 
 a {

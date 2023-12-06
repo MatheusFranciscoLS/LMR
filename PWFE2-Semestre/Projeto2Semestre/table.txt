@@ -1,0 +1,30 @@
+CREATE TABLE usuarios (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    pNome VARCHAR(255) NOT NULL,
+    sNome VARCHAR(255) NOT NULL,
+    usuario VARCHAR(255) NOT NULL,
+    email VARCHAR(255) NOT NULL,
+    senha VARCHAR(255) NOT NULL,
+    cidade VARCHAR(255),
+    estado VARCHAR(2),
+    cep VARCHAR(8) NOT NULL,
+    cpf VARCHAR(11) NOT NULL,
+    nCartao VARCHAR(16) NOT NULL
+);
+CREATE TABLE produtos (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    nome VARCHAR(255) NOT NULL,
+    preco DECIMAL(10, 2) NOT NULL,
+    descricao TEXT,
+    imagem VARCHAR(255), -- Assuming you'll store the image path or URL
+    data_criacao TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);
+
+CREATE TABLE carrinho (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    id_usuario INT,
+    id_produto INT,
+    quantidade INT,
+    -- Adicione outras colunas necessárias, como preço, nome do produto, etc.
+    FOREIGN KEY (id_usuario) REFERENCES usuarios(id) -- Substitua "usuarios" pelo nome da tabela de usuários
+);

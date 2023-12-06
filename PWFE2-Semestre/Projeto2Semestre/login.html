@@ -11,6 +11,7 @@
   <link rel="stylesheet" href="style.css">
   <link rel="stylesheet" href="login.php">
   <link rel="stylesheet" href="login.css">
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" />
   <title>Sua Página</title>
 </head>
 
@@ -130,12 +131,13 @@
       <a href="">Política de white hat</a>
     </div>
     <div class="politica3">
-      <h1>Institucional</h1>
-      <a href="">Sustentabilidade</a><br>
-      <a href="">Empresa</a><br>
-      <a href="">Termos e condições de uso</a><br>
-      <a href="">Canal de ética e conduta</a><br>
-      <a href="">Trabalhe conosco</a>
+      <h4>Encontre uma loja</h4>
+      <div class="mapa">
+        <!-- Elemento onde o mapa será exibido -->
+        <div id="mapa"></div>
+        <!-- Inclusão da biblioteca Leaflet -->
+        <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
+      </div>
     </div>
   </div>
   </footer>
@@ -143,5 +145,5 @@
 
 <script src="cadastro.js"></script>
 <script src="cep.js"></script>
-
+<script src="mapaLoja.js"></script>
 </html>
